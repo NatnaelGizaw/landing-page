@@ -1,0 +1,140 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    font-size: large;
+    padding: 8px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 15px;
+    background-color: #1F2937;
+    margin: 0px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.header-logo {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+
+.mid-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: #1F2937;
+}
+
+.mid-1 h1 {
+    font-size: 48px;
+    color: white;
+}
+
+.mid-1 p {
+    font-size: 18px;
+    color: white;
+}
+
+.button {
+    text-decoration: none;
+    background-color: #3882F6;
+    border-radius: 12px;
+}
+
+.mid-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+
+.random {
+    display: flex;
+    gap: 30px;
+}
+
+.randombox {
+    display: flex;
+    flex-direction: column;
+}
+
+.randombox div {
+    height: 150px;
+    border: 2px solid #3882F6;
+    border-radius: 15px;
+}
+
+
+.mid-3 {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    align-content: space-around;
+    padding: 150px;
+}
+
+.mid-3 strong {
+    font-size: x-large;
+    align-self: flex-end;
+}
+
+
+.mid-4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #3882F6 ;
+    padding: 50px;
+    margin: 70px 100px;
+    border-radius: 12px;
+    gap: 50px;
+}
+
+.mid-4-inner {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.mid-4 a {
+    font-style: none;
+    border: 3px solid white;
+    border-radius: 15px;
+    align-self: center;
+}
+
+
+.bottom {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    font: bold;
+    font-size: 20px;
+    color: white;
+    padding: 50px;
+}
+
